@@ -1,0 +1,40 @@
+/* CSS Document */
+
+body {
+	font-family: Gill Sans, san-seriff;
+	background-color: orange;
+}
+.navbar {
+	position: fixed;
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+	top: 0;
+	background-color: orange;
+}
+
+.navbar a {
+	text-decoration: none;
+	padding: 15px 20px;
+	color: black;
+}
+.navbar a:hover {
+	background-color: darkorange;
+	padding: 20 px 30 px;
+}
+
+.intro-section {
+	text-align: center;
+	padding: 100px;
+}
+
+
+.book {
+    text-align: center;
+    padding: 100px 0;
+    background-color: dodgerblue;
+    color: white;
+}
+.book a:hover {
+	background-color: floralwhite;
+}
